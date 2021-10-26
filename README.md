@@ -2,7 +2,7 @@
 React Native Application for Dealers
 
 # Scripts
-### `npm start` or ### `yarn start`
+### `npm start` or `yarn start`
 
 Runs your app in development mode.
 
