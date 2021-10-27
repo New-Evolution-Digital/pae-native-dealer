@@ -1,7 +1,15 @@
 # pae-native-dealer
+
 React Native Application for Dealers
 
+## Introduction
+
+This application is a key to taking this project to market. It will allow for dealers to explore and interact with both their customers, as well as interaction with their inventory units.
+
+Features will be expanded as time progresses, and currently this application does not have any sort of state.
+
 # Scripts
+
 ### `npm start` or `yarn start`
 
 Runs your app in development mode.

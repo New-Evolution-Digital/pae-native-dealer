@@ -27,7 +27,13 @@ const Onboarding = ({ navigation }) => {
           variant={'filled'}
           size='lg'
         />
-        <Button size={'lg'} m={'5'} px={5} variant='outline' width={'80%'}>
+        <Button
+          size={'lg'}
+          m={'5'}
+          px={5}
+          variant='outline'
+          width={'80%'}
+          onPress={() => navigation.navigate('Profile')}>
           {
             //TODO: Add onPress to redirect to SalesView (which will have inventory list & CRM)
           }

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Box, Input, Center, Button, Link, Heading } from 'native-base';
 
-const Login = () => {
+const Login: any = ({ navigation }) => {
   return (
     <Box>
       <Center mt='150'>
@@ -21,7 +21,13 @@ const Login = () => {
           variant={'filled'}
           size='lg'
         />
-        <Button size={'lg'} m={'5'} px={5} variant='outline' width={'80%'}>
+        <Button
+          size={'lg'}
+          m={'5'}
+          px={5}
+          variant='outline'
+          onPress={() => navigation.navigate('Profile')}
+          width={'80%'}>
           Submit
         </Button>
         <Link mt={'4'} href=''>
